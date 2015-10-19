@@ -1,0 +1,41 @@
+p {
+    font: 12px, Verdana, Tahoma, sans-serif;
+}
+
+#monthlyCost { 
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FF7519;
+}
+
+input{ 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 4px;
+    padding: 9px; 
+    border: solid 1px #d5d5d5; 
+    outline: 0; 
+    font: 13px Verdana, Tahoma, sans-serif; 
+    width: 200px; 
+    background: #FFFFFF; 
+    } 
+
+input:hover,.preview-block input:focus{ 
+    border-color: #b1b1b1; 
+    }    
+
+.submit input{ 
+    width: auto; 
+    padding: 9px 20px; 
+    background: #3FB8AF; 
+    border: 0; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    }
+
+.submit input:hover{ 
+    background: #FF3D7F; 
+    border-bottom: 3px solid #FF9E9D; 
+    transition: all .1s;
+    }
+
